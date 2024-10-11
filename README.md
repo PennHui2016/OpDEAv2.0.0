@@ -129,12 +129,15 @@ Then, the package can be installed from github via the following code:
 
 2.Or via downloading **"OpDEA_v2.0.0"** from this site, then installed with the following command:
     
-    install.packages(pkgs = '~/OpDEA_0.0.0.9000.tar.gz', repos = NULL, type = "source")
+    install.packages(pkgs = '~/OpDEAv2.0.0-2.0.0.tar.gz', repos = NULL, type = "source")
 
 3. download the python environment from Zendo: https://zenodo.org/records/13911848
    decompress the zip file to the folder of OpDEA package in the R library, e.g., /R/library/OpDEA/app/www/
+   
+   '''
    !!! the whole folder of "directlfq/" should be copyed to the /R/library/OpDEA/app/www/ folder, otherwise
    errors will be returned.
+   '''
    
 At last, the shiny app can be launched via:
 
